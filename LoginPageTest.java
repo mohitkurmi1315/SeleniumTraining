@@ -16,6 +16,7 @@ public class LoginPageTest {
         driver.findElement(By.xpath("//i[@class='fa fa-2x fa-sign-in']")).click();
 //        driver.findElement(By.linkText("Elemental Selenium")).click();
         driver.findElement(By.partialLinkText("Elemental")).click();
+//        driver.findElement(By.partialLinkText("Elemental")).click();
 	}
 
 }
