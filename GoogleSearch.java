@@ -31,6 +31,7 @@ public class GoogleSearch {
 	    System.out.println("Page Title after Back :"+ driver.getTitle());
 	    driver.navigate().forward();
 	    driver.navigate().refresh();
+//	    driver.navigate().refresh();
 	}
 
 }
